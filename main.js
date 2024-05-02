@@ -6,8 +6,8 @@ const path = require('path');
 function createWindow() {
   // Create the browser window
   const win = new BrowserWindow({
-    width: 800, // Width of the window
-    height: 600, // Height of the window'
+    width: 1080, // Width of the window
+    height: 1260, // Height of the window'
     removeMenu:true,
     autoHideMenuBar:true,
     icon: path.join(__dirname, 'manchat_favicon.ico'), // Path to your icon file
